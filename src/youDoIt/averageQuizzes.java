@@ -5,8 +5,6 @@ public class averageQuizzes {
         int[] scoresArray = new int[10];
         int score;
         int total = 0;
-        int high = 0;
-        int low = 100;
         Scanner input = new Scanner(System.in);
         for(int i = 0; i< scoresArray.length; i++){
             System.out.println("Enter quiz score number " + i + ">>>> ");
@@ -16,15 +14,9 @@ public class averageQuizzes {
         }
         System.out.println("The scores entered were ");
         for(int j = 0; j < scoresArray.length; j++){
-            if(scoresArray[j] > high){
-                high = scoresArray[j];
-            }
-            else if(scoresArray[j] < low){
-                low = scoresArray[j];
-            }
+            System.out.println(scoresArray);
         }
-        System.out.println("The average is " + total/scoresArray.length);
-        System.out.println("The high is " + high + ", and the low is " + low + ".");
         highLow.displayHighLow(scoresArray);
+        System.out.println("The average is " + total/scoresArray.length);
     }
 }

@@ -7,9 +7,10 @@ public class highLow {
             if(scoresArray[j] > high){
                 high = scoresArray[j];
             }
-            else if(scoresArray[j] < low){
+            if(scoresArray[j] < low){
                 low = scoresArray[j];
             }
         }
+        System.out.println("The high is " + high + ", and the low is " + low + ".");
     }
 }
