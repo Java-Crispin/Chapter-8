@@ -7,7 +7,7 @@ public class highLow {
             if(scoresArray[j] > high){
                 high = scoresArray[j];
             }
-            if(scoresArray[j] < low){
+             if(scoresArray[j] < low){
                 low = scoresArray[j];
             }
         }
