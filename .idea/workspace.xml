@@ -15,26 +15,26 @@
       <file leaf-file-name="averageQuizzes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/youDoIt/averageQuizzes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+            <state relative-caret-position="204">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="15" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="findPrice.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="findPrice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/youDoIt/findPrice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="544">
               <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="highLow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/youDoIt/highLow.java">
+      <file leaf-file-name="distanceFromAverage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/youDoIt/distanceFromAverage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -57,11 +57,14 @@
         <option value="C:/LanSchool Files/DemoArray.java" />
         <option value="$PROJECT_DIR$/src/examples/demoArray.java" />
         <option value="$PROJECT_DIR$/src/youDoIt/displayAll.java" />
-        <option value="$PROJECT_DIR$/src/youDoIt/arrayMethodDemo.java" />
         <option value="$PROJECT_DIR$/src/youDoIt/all.java" />
         <option value="$PROJECT_DIR$/src/youDoIt/averageQuizzes.java" />
         <option value="$PROJECT_DIR$/src/youDoIt/highLow.java" />
         <option value="$PROJECT_DIR$/src/youDoIt/findPrice.java" />
+        <option value="$PROJECT_DIR$/src/assignments/arrayMethodDemo.java" />
+        <option value="$PROJECT_DIR$/src/youDoIt/arrayMethodDemo.java" />
+        <option value="$PROJECT_DIR$/src/youDoIt/twelveInts.java" />
+        <option value="$PROJECT_DIR$/src/youDoIt/distanceFromAverage.java" />
       </list>
     </option>
   </component>
@@ -118,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.findPrice">
+  <component name="RunManager" selected="Application.twelveInts">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -157,6 +160,17 @@
     </configuration>
     <configuration name="findPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="youDoIt.findPrice" />
+      <module name="Chapter-8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="youDoIt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="twelveInts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="youDoIt.twelveInts" />
       <module name="Chapter-8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -209,9 +223,11 @@
       <item itemvalue="Application.averageQuizzes" />
       <item itemvalue="Application.arrayMethodDemo" />
       <item itemvalue="Application.findPrice" />
+      <item itemvalue="Application.twelveInts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.twelveInts" />
         <item itemvalue="Application.findPrice" />
         <item itemvalue="Application.averageQuizzes" />
         <item itemvalue="Application.arrayMethodDemo" />
@@ -245,7 +261,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298292" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5164257" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -333,17 +349,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/youDoIt/averageQuizzes.java">
+    <entry file="file://$PROJECT_DIR$/src/youDoIt/arrayMethodDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/youDoIt/twelveInts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/youDoIt/findPrice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="544">
           <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/youDoIt/averageQuizzes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/youDoIt/distanceFromAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
