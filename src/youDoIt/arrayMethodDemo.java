@@ -28,20 +28,23 @@ public class arrayMethodDemo {
         System.out.println("The total is " + total + ".");
     }
     public static void display(int[] array){
-        System.out.println("The values less than five are.");
+        System.out.println("The values less than six are.");
         for (int i = 0; i <= 4; i++) {
             System.out.println(array[i]);
         }
     }
     public static void displayAboveAvg(int[] array){
-        int average = 0;
+        System.out.println("The numbers below average are.");
+        int average ;
         int total = 0;
         for (int i = 0; i <= 9; i++) {
             total = total + array[i];
+            average = total / array.length;
         }
         average = total / array.length;
-        for (int i = 0; i < average; i++) {
-        }
         System.out.println("The average is " + average + ".");
+        for(int i = 0; i < (average-1); i++){
+            System.out.println(array[i]);
+        }
     }
 }
