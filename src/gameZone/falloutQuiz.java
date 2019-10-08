@@ -1,10 +1,13 @@
 package gameZone;
 import javax.swing.*;
 import java.util.Scanner;
-public class quiz {
+public class falloutQuiz {
         public static void main(String[]args){
             final int NUMBER_OF_QUESTIONS = 10;
-            String [] questions = {};
+            String [] questions = {
+                    "When was the first fallout game released?"+
+                    "What was the best selling fallout game of all time?"
+            };
             char [] answers = {'a','b','c','b','a','b','c','b','a','b'};
             String strItem;
             String userInput;

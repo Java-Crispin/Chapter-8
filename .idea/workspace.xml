@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quiz.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gameZone/quiz.java">
+      <file leaf-file-name="falloutQuiz.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gameZone/falloutQuiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="119">
+              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/youDoIt/distanceFromAverage.java" />
         <option value="$PROJECT_DIR$/src/youDoIt/arrayMethodDemo.java" />
         <option value="$PROJECT_DIR$/src/gameZone/quiz.java" />
+        <option value="$PROJECT_DIR$/src/gameZone/falloutQuiz.java" />
       </list>
     </option>
   </component>
@@ -493,10 +494,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gameZone/quiz.java">
+    <entry file="file://$PROJECT_DIR$/src/gameZone/falloutQuiz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="119">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
