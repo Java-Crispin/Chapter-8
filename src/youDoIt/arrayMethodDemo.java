@@ -42,9 +42,9 @@ public class arrayMethodDemo {
             average = total / array.length;
         }
         average = total / array.length;
-        System.out.println("The average is " + average + ".");
         for(int i = 0; i < (average-1); i++){
             System.out.println(array[i]);
         }
+        System.out.println("The average is " + average + ".");
     }
 }
