@@ -1,39 +1,27 @@
 package gameZone;
-import javax.swing.*;
 import java.util.Scanner;
+import static java.lang.Math.abs;
 public class falloutQuiz {
-        public static void main(String[]args){
-            final int NUMBER_OF_QUESTIONS = 10;
-            String [] questions = {
-                    "When was the first fallout game released?"+
-                    "What was the best selling fallout game of all time?"
-            };
-            char [] answers = {'a','b','c','b','a','b','c','b','a','b'};
-            String strItem;
-            String userInput;
-            boolean Continue = true;
-            int itemOrdered;
-            double itemPrice = 0.0;
-            boolean validItem = false;
-            boolean again = true;
-            while(again) {
-                strItem = JOptionPane.showInputDialog(null, "Enter the item number you would like to order");
-                itemOrdered = Integer.parseInt(strItem);
-                for (int i = 0; i < NUMBER_OF_QUESTIONS; ++i) {
-                    if (itemOrdered == questions[i]) {
-                        validItem = true;
-                        itemPrice = prices[i];
-                    }
-                }
-                if (validItem) {
-                    JOptionPane.showMessageDialog(null, "Thr price for item number " +
-                            itemOrdered + " is $" + itemPrice);
-                } else
-                    JOptionPane.showMessageDialog(null, "Sorry, entry is invalid.");
-                strItem = JOptionPane.showInputDialog(null, "Order again? yes or no");
-                if (strItem.equalsIgnoreCase("no")) {
-                    again = false;
-                }
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        boolean quit = true;
+        String converter;
+        int count = 0;
+        char dataValidation [] = {};
+        char correctAnswers [] = {'a','b','c','b','a','b','c','b','a','b'};
+        char userEntry;
+        int correct = 0;
+        int incorrect = 0;
+        while (quit) {
+            System.out.println("Please choose a, b, or c.\n>>>>>");
+            converter = input.next();
+            userEntry = converter.charAt(0);
+            if (count == 10) {
+                quit = false;
             }
+            count++;
+        }
+        for (int i = 0; i < count; i++) {
         }
     }
+}
